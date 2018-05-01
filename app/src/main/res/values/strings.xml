@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Visit Athens with Kids</string>
+    <string name="category_visit">Visit</string>
+    <string name="category_eat_and_drink">Eat</string>
+    <string name="category_shop">Shop</string>
+    <string name="category_sleep">Sleep</string>
+</resources>
