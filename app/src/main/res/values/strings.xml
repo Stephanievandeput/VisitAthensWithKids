@@ -1,7 +1,112 @@
 <resources>
+
     <string name="app_name">Visit Athens with Kids</string>
+
+    <!-- The Strings for the tabnames -->
+
     <string name="category_visit">Visit</string>
     <string name="category_eat_and_drink">Eat</string>
     <string name="category_shop">Shop</string>
     <string name="category_sleep">Sleep</string>
+
+    <!-- The Strings for the VisitFragment -->
+
+    <string name="akropolis_name">Akropolis</string>
+    <string name="akropolis_address">Dyonisiou Areopagitou</string>
+    <string name="akropolis_opening">08:00 - 20:00</string>
+
+    <string name="akropolis_museum_name">Akropolis Museum</string>
+    <string name="akropolis_museum_address">Dyonisiou Areopagitou</string>
+    <string name="akropolis_museum_opening">08:00 - 20:00</string>
+
+    <string name="national_garden_name">National Garden</string>
+    <string name="national_garden_address">Syntagma Square</string>
+    <string name="national_garden_opening">Sunrise - Sunset</string>
+
+    <string name="flisvos_marina_name">Flisvos Marina</string>
+    <string name="flisvos_marina_address">Paleo Faliro</string>
+    <string name="flisvos_marina_opening">09:00 - 22:00</string>
+
+    <string name="stavros_niarchos_name">Stavros Niarchos Park</string>
+    <string name="stavros_niarchos_address">Avenue Syggrou 364</string>
+    <string name="stavros_niarchos_opening">06:00 - 22:00</string>
+
+    <string name="ancient_agora_name">Ancient Agora</string>
+    <string name="ancient_agora_address">Adrianou Street</string>
+    <string name="ancient_agora_opening">08:00 - 15:00</string>
+
+    <string name="the_beach_name">The Beach</string>
+    <string name="the_beach_address">Avenue Posidonos</string>
+    <string name="the_beach_opening">Sunrise - Sunset</string>
+
+    <string name="cycladic_museum_name">Museum of Cycladic Art</string>
+    <string name="cycladic_museum_address">Neofitou Douka 4</string>
+    <string name="cycladic_museum_opening">10:00 - 17:00</string>
+
+    <!-- The Strings for the EatAndDrinkFragment -->
+
+    <string name="kalamaki_bar_name">Kalamaki Bar</string>
+    <string name="kalamaki_bar_address">Drakou 15</string>
+    <string name="kalamaki_bar_opening">12:00 - 01:30</string>
+
+    <string name="skoubri_name">Skoubri</string>
+    <string name="skoubri_address">Drakou 14</string>
+    <string name="skoubri_opening">12:00 - 02:00</string>
+
+    <string name="gazi_college_name">Gazi College</string>
+    <string name="gazi_college_address">Persefonis 53</string>
+    <string name="gazi_college_opening">08:00 - 03:00</string>
+
+    <string name="to_mavro_provato_name">To Mavro Provato</string>
+    <string name="to_mavro_provato_address">Arrianou 31</string>
+    <string name="to_mavro_provato_opening">12:30 - 01:00</string>
+
+    <string name="numismatic_museum_cafe_name">Numismatic Museum Cafe</string>
+    <string name="numismatic_museum_cafe_address">Panepistimiou 12</string>
+    <string name="numismatic_museum_cafe_opening">09:00 - 00:00</string>
+
+    <!-- The Strings for the SleepFragment -->
+
+    <string name="ava_hotel_name">Ava Hotel and Suites</string>
+    <string name="ava_hotel_address">Lisikratous 9</string>
+    <string name="ava_hotel_website">www.avahotel.gr</string>
+
+    <string name="dorianinn_hotel_name">Dorian Inn Hotel</string>
+    <string name="dorianinn_hotel_address">Pireos 15</string>
+    <string name="dorianinn_hotel_website">www.dorianinnhotel.com</string>
+
+    <string name="astor_hotel_name">Astor Hotel</string>
+    <string name="astor_hotel_address">Karagiorgi Servias 16</string>
+    <string name="astor_hotel_website">www.gtp.gr/AstorHotel</string>
+
+    <string name="palmyra_hotel_name">Palmyra Beach Hotel</string>
+    <string name="palmyra_hotel_address">Avenue Posidonos 70</string>
+    <string name="palmyra_hotel_website">www.palmyra.gr</string>
+
+    <string name="citycircus_hotel_name">City Circus</string>
+    <string name="citycircus_hotel_address">Sarri 16</string>
+    <string name="citycircus_hotel_website">www.citycircus.gr</string>
+
+    <!-- The Strings for the ShopFragment -->
+
+    <string name="damigos_name">Damigos Toys</string>
+    <string name="damigos_address">Likourgou 3</string>
+    <string name="damigos_opening">09:00 - 20:00</string>
+
+    <string name="public_name">Public</string>
+    <string name="public_address">Karagiorgi Servias 1</string>
+    <string name="public_opening">09:00 - 21:00</string>
+
+    <string name="moustakas_name">Moustakas</string>
+    <string name="moustakas_address">Ermou 87-89</string>
+    <string name="moustakas_opening">09:00 - 21:00</string>
+
+    <string name="metro_mall_name">Athens Metro Mall</string>
+    <string name="metro_mall_address">Avenue Vouliagmenis 276</string>
+    <string name="metro_mall_opening">09:00 - 21:00</string>
+
+    <string name="heart_mall_name">Athens Heart Mall</string>
+    <string name="heart_mall_address">Pireos 180</string>
+    <string name="heart_mall_opening">10:00 - 21:00</string>
+
 </resources>

@@ -30,11 +30,11 @@ public class ShopFragment extends Fragment {
 
         //Create a list of places to visit
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Damigos Toys", "Likourgou 3","09:00 - 20:00", R.drawable.damigos));
-        places.add(new Place("Public", "Karagiorgi 1","09:00 - 21:00", R.drawable.public_shop));
-        places.add(new Place("Moustakas", "Ermou 87-89","09:00 - 21:00", R.drawable.moustakas));
-        places.add(new Place("Athens Metro Mall", "Avenue Vouliagmenis 276","09:00 - 21:00", R.drawable.athens_metro_mall));
-        places.add(new Place("Athens Heart Mall", "Pireos 180", "10:00 - 21:00", R.drawable.athens_heart_mall));
+        places.add(new Place(getString(R.string.damigos_name), getString(R.string.damigos_address), getString(R.string.damigos_opening), R.drawable.damigos));
+        places.add(new Place(getString(R.string.public_name), getString(R.string.public_address), getString(R.string.public_opening), R.drawable.public_shop));
+        places.add(new Place(getString(R.string.moustakas_name), getString(R.string.moustakas_address), getString(R.string.moustakas_opening), R.drawable.moustakas));
+        places.add(new Place(getString(R.string.metro_mall_name), getString(R.string.metro_mall_address), getString(R.string.metro_mall_opening), R.drawable.athens_metro_mall));
+        places.add(new Place(getString(R.string.heart_mall_name), getString(R.string.heart_mall_address), getString(R.string.heart_mall_opening), R.drawable.athens_heart_mall));
 
         //Creates an adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.categoryShop);

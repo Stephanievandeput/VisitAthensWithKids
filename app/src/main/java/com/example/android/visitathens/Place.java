@@ -21,14 +21,13 @@ public class Place {
         mOpeningHours = openingHours;
     }
 
-    //Creates a new Place object
+    //Creates a new Place object with an image
     public Place(String name, String address, String openingHours, int imageResourceId) {
         mName = name;
         mAddress = address;
         mOpeningHours = openingHours;
         mImageResourceId = imageResourceId;
     }
-
 
     //Get the name of the Place object
     public String getName() {

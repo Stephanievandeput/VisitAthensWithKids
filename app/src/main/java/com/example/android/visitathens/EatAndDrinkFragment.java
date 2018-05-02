@@ -30,11 +30,11 @@ public class EatAndDrinkFragment extends Fragment {
 
         //Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Kalamaki Bar", "Drakou 15", "12:00 - 01:30", R.drawable.kalamaki_bar));
-        places.add(new Place("Skoubri", "Drakou 14", "12:00 - 02:00", R.drawable.skoubri));
-        places.add(new Place("Gazi College", "Persefonis 53", "08:00 - 03:00", R.drawable.gazi_college));
-        places.add(new Place("To Mavro Provato", " Arrianou 31", "12:30 - 01:00", R.drawable.to_mavro_provato));
-        places.add(new Place("Numismatic Museum Cafe", "Panepistimiou 12", "09:00 - 00:00", R.drawable.numismatic_museum_cafe));
+        places.add(new Place(getString(R.string.kalamaki_bar_name), getString(R.string.kalamaki_bar_address), getString(R.string.kalamaki_bar_opening), R.drawable.kalamaki_bar));
+        places.add(new Place(getString(R.string.skoubri_name), getString(R.string.skoubri_address), getString(R.string.skoubri_opening), R.drawable.skoubri));
+        places.add(new Place(getString(R.string.gazi_college_name), getString(R.string.gazi_college_address), getString(R.string.gazi_college_opening), R.drawable.gazi_college));
+        places.add(new Place(getString(R.string.to_mavro_provato_name), getString(R.string.to_mavro_provato_address), getString(R.string.to_mavro_provato_opening), R.drawable.to_mavro_provato));
+        places.add(new Place(getString(R.string.numismatic_museum_cafe_name), getString(R.string.numismatic_museum_cafe_address), getString(R.string.numismatic_museum_cafe_opening), R.drawable.numismatic_museum_cafe));
 
         //Creates and adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.categoryEatAndDrink);

@@ -30,11 +30,11 @@ public class SleepFragment extends Fragment {
 
         //Create a list of places to visit
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Ava Hotel and Suites" , "Lisikratous 9","www.avahotel.gr", R.drawable.ava_hotel_and_suites));
-        places.add(new Place("Dorian Inn Hotel", "Pireos 15", "www.dorianinnhotel.com", R.drawable.dorian_inn_hotel));
-        places.add(new Place("Astor Hotel", "Karagiorgi Servias 16", "www.gtp.gr/AstorHotel", R.drawable.astor_hotel));
-        places.add(new Place("Palmyra Beach Hotel", "Avenue Posidonos 70", "www.palmyra.gr/en", R.drawable.palmyra_beach_hotel));
-        places.add(new Place ("City Circus", "Sarri 16", "www.citycircus.gr", R.drawable.city_circus));
+        places.add(new Place(getString(R.string.ava_hotel_name), getString(R.string.ava_hotel_address), getString(R.string.ava_hotel_website), R.drawable.ava_hotel_and_suites));
+        places.add(new Place(getString(R.string.dorianinn_hotel_name), getString(R.string.dorianinn_hotel_address), getString(R.string.dorianinn_hotel_website), R.drawable.dorian_inn_hotel));
+        places.add(new Place(getString(R.string.astor_hotel_name), getString(R.string.astor_hotel_address), getString(R.string.astor_hotel_website), R.drawable.astor_hotel));
+        places.add(new Place(getString(R.string.palmyra_hotel_name), getString(R.string.palmyra_hotel_address), getString(R.string.palmyra_hotel_website), R.drawable.palmyra_beach_hotel));
+        places.add(new Place(getString(R.string.citycircus_hotel_name), getString(R.string.citycircus_hotel_address), getString(R.string.citycircus_hotel_website), R.drawable.city_circus));
 
         //Creates an adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.categorySleep);

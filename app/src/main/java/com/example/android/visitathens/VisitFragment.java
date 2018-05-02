@@ -30,15 +30,15 @@ public class VisitFragment extends Fragment {
 
         //Create a list of places to visit
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Akropolis Museum", "Dionysiou Areopagitou Street",
-                "08:00 - 20:00", R.drawable.akropolis_museum));
-        places.add(new Place("Akropolis", "Dyonisiou Areopagitou Street", "08:00 - 20:00", R.drawable.akropolis));
-        places.add(new Place("National Garden", "Syntagma Square", "sunrise - sundown", R.drawable.national_gardens));
-        places.add(new Place("Flisvos Marina", "Paleo Faliro", "09:00 - 22:00", R.drawable.flisvos_marina));
-        places.add(new Place("Stavros Niarchos Park", "Avenue Siggrou 364", "06:00 - 22:00", R.drawable.stavros_niarchos_park));
-        places.add(new Place("Ancient Agora", "Adrianou Street", "08:00 - 15:00", R.drawable.ancient_agora));
-        places.add(new Place("The Beach", "Avenue Posidonos", "sunrise - sundown", R.drawable.beach_athens));
-        places.add(new Place("Museum of Cycladic Art", "Neofitou Douka 4", "10:00 - 17:00", R.drawable.museum_of_cycladic_art));
+        places.add(new Place(getString(R.string.akropolis_museum_name), getString(R.string.akropolis_museum_address),
+                getString(R.string.akropolis_museum_opening), R.drawable.akropolis_museum));
+        places.add(new Place(getString(R.string.akropolis_name), getString(R.string.akropolis_address), getString(R.string.akropolis_opening), R.drawable.akropolis));
+        places.add(new Place(getString(R.string.national_garden_name), getString(R.string.national_garden_address), getString(R.string.national_garden_opening), R.drawable.national_gardens));
+        places.add(new Place(getString(R.string.flisvos_marina_name), getString(R.string.flisvos_marina_address), getString(R.string.flisvos_marina_opening), R.drawable.flisvos_marina));
+        places.add(new Place(getString(R.string.stavros_niarchos_name), getString(R.string.stavros_niarchos_address), getString(R.string.stavros_niarchos_opening), R.drawable.stavros_niarchos_park));
+        places.add(new Place(getString(R.string.ancient_agora_name), getString(R.string.ancient_agora_address), getString(R.string.ancient_agora_opening), R.drawable.ancient_agora));
+        places.add(new Place(getString(R.string.the_beach_name), getString(R.string.the_beach_address), getString(R.string.the_beach_opening), R.drawable.beach_athens));
+        places.add(new Place(getString(R.string.cycladic_museum_name), getString(R.string.cycladic_museum_address), getString(R.string.cycladic_museum_opening), R.drawable.museum_of_cycladic_art));
 
         //Creates an adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.categoryVisit);
